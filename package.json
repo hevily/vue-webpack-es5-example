@@ -1,0 +1,32 @@
+{
+  "name": "test-vue-webpack-project",
+  "version": "1.0.0",
+  "description": "test the vue with webpack project",
+  "main": "webpack.config.js",
+  "scripts": {
+    "devd": "webpack --config webpack.dev.js --progress --colors",
+    "devs": "webpack-dev-server --progress --colors --watch --config webpack.dev.js",
+    "prod": "webpack --config webpack.prod.js --progress --colors",
+    "pros": "webpack-dev-server --progress --colors --watch --config webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.8",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.9.0",
+    "image-loader": "0.0.1",
+    "img-loader": "^1.2.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14",
+    "webpack-md5-hash": "0.0.5"
+  },
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "vue": "^1.0.17"
+  }
+}
